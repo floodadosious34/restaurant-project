@@ -1,0 +1,55 @@
+body {
+  position: relative;
+}
+
+.main-content {
+  display:flex;
+  flex-flow:row wrap;
+  gap:1em;
+  justify-content: space-between;
+  background-image: url('https://media.istockphoto.com/photos/american-food-concept-grilled-pork-ribs-with-grilled-sauce-with-smoke-picture-id1191425335?k=20&m=1191425335&s=612x612&w=0&h=1-T6Ez2M_5mx2SgfaqjoEVfCPERU7LTRsfuVOzDRtiI=');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 50em;
+  color: darkkhaki;
+}
+
+.main-content h1 {
+  /* margin: 80px auto 10px; */
+  font-weight: bolder;
+  text-align: center;
+}
+
+#test {
+  /* border: solid 1px black; */
+  display: flex;
+  flex-wrap: wrap;
+  /* display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; * */
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  margin: 10px auto 10px;
+  
+}
+
+.test {
+  display: block;
+  border: solid 1px black;
+  height: 200px;
+  width: 200px;
+  padding: 10px 10px;
+  margin: 0 10px 10px;
+  background-color: cornsilk;
+  list-style: none;
+  color: black;
+  border-radius: 10%;
+}
+
+.test li {
+  margin-bottom: 15px;
+}
+

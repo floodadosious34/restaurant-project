@@ -1,0 +1,55 @@
+
+ [
+    {
+        "id":0,
+        "title": "Rib Platter",
+        "description": "Plate of dry rubbed slow cooked pork ribs",
+        "price": 19.99
+    },
+    {
+        "title": "Brisket Sandwich",
+        "description": "Specialy marinated strips of beef, served on a sourdough bun.",
+        "price": 15.99
+    },
+    {
+        "title": "Hot Wings",
+        "description": "1/2lb of chicken wings, marinated with the spiciest of hot sauce.",
+        "price": 13.99
+    },
+    {
+        "title": "Hot Links",
+        "description": "Spicy Hot Link served on a brioche bun, with extra spicy mustard",
+        "price": 10.99
+    },
+    {
+        "title": "Cole Slaw",
+        "description": "Imagine KFC slaw, and times it by 100!",
+        "price": 4.99
+    },
+    {
+        "title": "Mac and Cheese",
+        "description": "Cheesy cheese noodles.",
+        "price": 4.99
+    },
+    {
+        "title": "Potato Salad",
+        "description": "Potato and Mayo, nuff said!",
+        "price": 4.99
+    },
+    {
+        "title": "Greens",
+        "description": "Collard greens from the heavens",
+        "price": 3.99
+    },
+    {
+        "title": "Caesar Salad",
+        "description": "We had to have something healthy on the menu",
+        "price": 6.99
+    },
+    {
+        "title": "Drinks",
+        "description": "Only 3 types",
+        "drinks": ["Lemonade", "Sweet Tea", "Arnie Palm"],
+        "price": 10.99
+    }
+]
