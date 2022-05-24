@@ -1,3 +1,4 @@
+//Require json file with menu items
 const foodItems = require('./data/menu.json')
 
 let express = require('express')
