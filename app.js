@@ -1,7 +1,5 @@
 window.onload = function getData() {
-    let test = document.getElementById('test')
-    // let description = document.getElementById('descript')
-    // let price = document.getElementById('price')
+    let menuContainer = document.getElementById('menu')
     let gridContainer = '';
     
     fetch(`http://localhost:3000/`)
@@ -9,21 +7,32 @@ window.onload = function getData() {
         .then(data => {
             console.log(data)
             data.forEach(object => {
-                // name.classList += " test"
                 let title = object.title
                 let description = object.description
                 let price = object.price
-                gridContainer += `
-                    <div class="test">
+                
+                if(object.hasOwnProperty('drinks')) {
+                    console.log(object.drinks)
+                    gridContainer += `
+                    <div class="menuStyle">
+                        <h2>${title}</h2>
+                        <li>${description}</li>
+                        <li>${price}</li>
+                        <li>${object.drinks[0]}</li>
+                        <li>${object.drinks[1]}</li>
+                        <li>${object.drinks[2]}</li>
+                    </div>
+                `
+                } else {
+                    gridContainer += `
+                    <div class="menuStyle">
                         <h2>${title}</h2>
                         <li>${description}</li>
                         <li>${price}</li>
                     </div>
                 `
+                }
             });
-            test.innerHTML = gridContainer
-            // name.innerHTML = data.items[0].title
-            // description.innerHTML = data.items[0].description
-            // price.innerHTML = data.items[0].price
+            menuContainer.innerHTML = gridContainer
      })
 }

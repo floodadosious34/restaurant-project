@@ -7,46 +7,55 @@
         "price": 19.99
     },
     {
+        "id":1,
         "title": "Brisket Sandwich",
         "description": "Specialy marinated strips of beef, served on a sourdough bun.",
         "price": 15.99
     },
     {
+        "id":2,
         "title": "Hot Wings",
         "description": "1/2lb of chicken wings, marinated with the spiciest of hot sauce.",
         "price": 13.99
     },
     {
+        "id":3,
         "title": "Hot Links",
         "description": "Spicy Hot Link served on a brioche bun, with extra spicy mustard",
         "price": 10.99
     },
     {
+        "id":4,
         "title": "Cole Slaw",
         "description": "Imagine KFC slaw, and times it by 100!",
         "price": 4.99
     },
     {
+        "id":5,
         "title": "Mac and Cheese",
         "description": "Cheesy cheese noodles.",
         "price": 4.99
     },
     {
+        "id":6,
         "title": "Potato Salad",
         "description": "Potato and Mayo, nuff said!",
         "price": 4.99
     },
     {
+        "id":7,
         "title": "Greens",
         "description": "Collard greens from the heavens",
         "price": 3.99
     },
     {
+        "id":8,
         "title": "Caesar Salad",
         "description": "We had to have something healthy on the menu",
         "price": 6.99
     },
     {
+        "id":9,
         "title": "Drinks",
         "description": "Only 3 types",
         "drinks": ["Lemonade", "Sweet Tea", "Arnie Palm"],

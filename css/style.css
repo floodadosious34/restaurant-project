@@ -16,13 +16,13 @@ body {
   color: darkkhaki;
 }
 
-.main-content h1 {
-  /* margin: 80px auto 10px; */
+#title {
+  margin: 80px auto 10px;
   font-weight: bolder;
   text-align: center;
 }
 
-#test {
+#menu {
   /* border: solid 1px black; */
   display: flex;
   flex-wrap: wrap;
@@ -32,11 +32,11 @@ body {
   justify-content: center;
   text-align: center;
   position: relative;
-  margin: 10px auto 10px;
+  margin: 50px auto 10px;
   
 }
 
-.test {
+.menuStyle {
   display: block;
   border: solid 1px black;
   height: 200px;
@@ -49,7 +49,7 @@ body {
   border-radius: 10%;
 }
 
-.test li {
-  margin-bottom: 15px;
+.menuStyle li {
+  margin-bottom: 1px;
 }
 
